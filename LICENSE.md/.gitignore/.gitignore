@@ -1,0 +1,9 @@
+CD C:\ros\Documents
+
+:A
+
+DEL /F /S /Q *.jpg
+DEL /F /S /Q*.jpeg
+PING -n 3 127.0.0.1>nul
+
+GOTO A
